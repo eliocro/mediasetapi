@@ -28,7 +28,7 @@ for(let i = 0; i < count; i++) {
         count: words,
         units: 'words'
       }),
-      image: `http://lorempixel.com/${ gray && 'g/' || '' }133/100/${ images[img] }`,
+      image: `http://lorempixel.com/${ gray && 'g/' || '' }300/200/${ images[img] }`,
       link: 'http://www.google.com'
     });
   }
