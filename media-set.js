@@ -47,7 +47,7 @@ module.exports = {
       res.push(entries[start+i]);
     }
     reply({
-      found: count,
+      numFound: count,
       docs: res
     });
   }

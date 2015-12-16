@@ -15,14 +15,14 @@ server.connection({
 server.route([
   {
     method: '*',
-    path:'/',
-    handler: (request, reply) => {
+    path: '/',
+    handler (request, reply) {
       reply('MediaSet API');
     }
   },
   {
     method: 'GET',
-    path:'/mediaset',
+    path: '/mediaset',
     handler: mediaset.list
   },
 ]);
