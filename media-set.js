@@ -2,7 +2,7 @@
 
 const li = require('lorem-ipsum');
 
-const count = 50;
+const count = 35;
 const images  = ['abstract', 'animals', 'business', 'cats', 'city', 'food', 'nightlife',
  'fashion', 'people', 'nature', 'sports', 'technics', 'transport'];
 
